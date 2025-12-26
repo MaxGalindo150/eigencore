@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
+    <section className="relative pt-40 pb-20 md:pt-48 md:pb-32 overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-[1.15fr,0.85fr] gap-14 items-center">
           <div>
@@ -15,11 +15,11 @@ const Hero: React.FC = () => {
             <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1] mb-8 text-neutral-900 dark:text-white">
               IA aplicada a
               <span className="block text-gradient">resultados reales</span>
-              sin humo ni demos.
+              con impacto medible.
             </h1>
             
             <p className="text-lg md:text-xl text-neutral-500 dark:text-neutral-400 mb-10 max-w-2xl leading-relaxed">
-              Construimos sistemas autónomos que reducen costos y elevan la productividad desde el primer mes. Todo enfocado en operación crítica y métricas de negocio.
+              Diseñamos sistemas autónomos que reducen costos y elevan la productividad desde el primer mes. Enfocados en operación crítica y KPIs de negocio.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-6">
@@ -71,8 +71,8 @@ const Hero: React.FC = () => {
                 </div>
               </div>
             </div>
-            <a href="#ia-demo" className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700 transition-colors">
-              Ver demo de consultor
+            <a href="https://cal.com/maximiliano-galindo-z62vs0/meet-eigencore" className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700 transition-colors">
+              Agenda una demo
               <i className="fas fa-arrow-right"></i>
             </a>
           </div>

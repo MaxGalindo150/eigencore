@@ -45,7 +45,7 @@ const App: React.FC = () => {
           <Hero />
           <TrustedBy />
           <Services />
-          <AIConsultantDemo />
+          {/* <AIConsultantDemo /> */}
           <Portfolio />
           <Contact />
         </main>

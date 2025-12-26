@@ -33,18 +33,21 @@ const Contact: React.FC = () => {
           </div>
           
           <div className="lg:w-1/2">
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <input type="text" className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg py-4 px-6 text-sm outline-none focus:border-brand-600 transition-all" placeholder="Nombre" />
-                <input type="email" className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg py-4 px-6 text-sm outline-none focus:border-brand-600 transition-all" placeholder="Email Corporativo" />
-              </div>
-              <input type="text" className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg py-4 px-6 text-sm outline-none focus:border-brand-600 transition-all" placeholder="Industria" />
-              <textarea rows={4} className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg py-4 px-6 text-sm outline-none focus:border-brand-600 transition-all resize-none" placeholder="Describe brevemente tu objetivo..."></textarea>
-              
-              <button className="w-full py-4 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-bold rounded-lg transition-all hover:opacity-90 active:scale-95">
-                Enviar Solicitud
-              </button>
-            </form>
+            <div className="bg-white/90 dark:bg-neutral-900 border border-neutral-200/70 dark:border-neutral-800 rounded-2xl p-8 shadow-[0_24px_60px_-50px_rgba(15,23,42,0.35)]">
+              <h3 className="text-2xl font-bold mb-4">Agenda una llamada estratégica</h3>
+              <p className="text-neutral-500 dark:text-neutral-400 mb-8">
+                Revisa tu operación con un especialista y recibe un plan de acción claro en 30 minutos.
+              </p>
+              <a
+                href="https://cal.com/maximiliano-galindo-z62vs0/meet-eigencore"
+                className="inline-flex items-center justify-center w-full py-4 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-bold rounded-lg transition-all hover:opacity-90 active:scale-95"
+              >
+                Agendar llamada
+              </a>
+              <p className="mt-4 text-xs text-neutral-400">
+                Respuesta en menos de 24 horas.
+              </p>
+            </div>
           </div>
         </div>
       </div>

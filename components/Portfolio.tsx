@@ -16,7 +16,7 @@ const Portfolio: React.FC = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="bg-white/90 dark:bg-neutral-900 p-10 border border-neutral-200/70 dark:border-neutral-800 rounded-3xl shadow-[0_24px_60px_-50px_rgba(15,23,42,0.35)]">
             <p className="text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-4">Volumen de Atención</p>
-            <p className="text-6xl font-black text-brand-600 mb-2">~50%</p>
+            <p className="text-6xl font-black text-brand-600 mb-2">~70%</p>
             <p className="text-sm font-medium text-neutral-500">Del volumen total gestionado de forma autónoma.</p>
           </div>
           
@@ -49,7 +49,7 @@ const Portfolio: React.FC = () => {
                 </div>
               </div>
             </div>
-            <a href="#contacto" className="px-10 py-5 bg-white text-black rounded-full font-black uppercase tracking-widest text-xs hover:bg-neutral-200 transition-all active:scale-95">
+            <a href="https://cal.com/maximiliano-galindo-z62vs0/meet-eigencore" className="px-10 py-5 bg-white text-black rounded-full font-black uppercase tracking-widest text-xs hover:bg-neutral-200 transition-all active:scale-95">
               Solicitar Auditoría de IA
             </a>
           </div>
