@@ -12,6 +12,14 @@
         theme: {
           extend: {
             colors: {
+              brand: {
+                50: '#eef4ff',
+                100: '#dbe7ff',
+                500: '#2b5ff0',
+                600: '#1e4dd8',
+                700: '#173fb0',
+                900: '#0b1a3a'
+              },
               neutral: {
                 950: '#0a0a0a',
               }
@@ -30,9 +38,18 @@
             transition: background-color 0.3s ease, color 0.3s ease;
         }
         .text-gradient {
-            background: linear-gradient(to right, #3b82f6, #6366f1);
+            background: linear-gradient(90deg, #0f172a, #1e4dd8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+        }
+        .bg-grid {
+            background-image: linear-gradient(to right, rgba(15, 23, 42, 0.06) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+            background-size: 48px 48px;
+        }
+        .dark .bg-grid {
+            background-image: linear-gradient(to right, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
         }
         @keyframes float {
             0% { transform: translateY(0px); }

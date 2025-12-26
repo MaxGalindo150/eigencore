@@ -32,7 +32,12 @@ const App: React.FC = () => {
   const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark');
 
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-300">
+    <div className="relative min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-300 overflow-hidden">
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 bg-grid opacity-60 dark:opacity-30"></div>
+        <div className="absolute -top-40 right-[-10%] h-[420px] w-[420px] rounded-full bg-gradient-to-br from-brand-100/80 to-transparent blur-3xl dark:from-brand-900/30"></div>
+        <div className="absolute -bottom-48 left-[-10%] h-[520px] w-[520px] rounded-full bg-gradient-to-tr from-neutral-100/80 to-transparent blur-3xl dark:from-neutral-900/40"></div>
+      </div>
       <div className="relative z-10">
         <Navbar isScrolled={isScrolled} theme={theme} toggleTheme={toggleTheme} />
         
