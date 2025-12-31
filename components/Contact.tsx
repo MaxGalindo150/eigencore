@@ -13,21 +13,33 @@ const Contact: React.FC = () => {
             </p>
             
             <div className="space-y-8">
+
+              {/*
               <div className="flex items-center space-x-6">
                 <i className="fas fa-envelope text-neutral-400"></i>
-                <a className="font-medium hover:text-brand-600 transition-colors" href="mailto:maximilianogalindo7@gmail.com">
-                  maximilianogalindo7@gmail.com
+                <a className="font-medium hover:text-brand-600 transition-colors" href="mailto:main@eigencore.org">
+                  main@eigencore.org 
                 </a>
               </div>
+              
+              
               <div className="flex items-center space-x-6">
                 <i className="fab fa-whatsapp text-neutral-400"></i>
-                <a className="font-medium hover:text-brand-600 transition-colors" href="https://wa.me/524925833789">
-                  +52 492 583 3789
+                <a
+                  className="font-medium hover:text-brand-600 transition-colors"
+                  href="https://wa.me/5214929420950?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Eigen%20Core."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +52 (492) 942 0950
                 </a>
+
               </div>
+              */}
+
               <div className="flex items-center space-x-6">
                 <i className="fas fa-map-marker-alt text-neutral-400"></i>
-                <span className="font-medium">CDMX | Monterrey | Zac</span>
+                <span className="font-medium">CDMX | Zacatecas</span>
               </div>
             </div>
           </div>
