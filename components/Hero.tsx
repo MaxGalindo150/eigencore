@@ -26,13 +26,7 @@ const Hero: React.FC = () => {
               <a href="#contacto" className="w-full sm:w-auto px-10 py-5 bg-brand-600 text-white rounded-full font-black uppercase tracking-widest text-sm transition-all hover:bg-brand-700 active:scale-95 shadow-xl shadow-brand-600/20">
                 Inicia tu Diagnóstico
               </a>
-              <div className="flex items-center space-x-4 text-neutral-400 dark:text-neutral-500">
-                 <span className="text-[11px] font-bold uppercase tracking-widest">Operación crítica en:</span>
-                 <div className="flex space-x-4 text-neutral-500 dark:text-neutral-400">
-                    <span className="text-sm font-black italic">CASHEA</span>
-                    <span className="text-sm font-black">CEMEX</span>
-                 </div>
-              </div>
+              
             </div>
           </div>
 
