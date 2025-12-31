@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/one-page",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/one-page/",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
