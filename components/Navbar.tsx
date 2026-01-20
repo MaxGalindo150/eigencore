@@ -36,6 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled, theme, toggleTheme }) => {
         
         <div className="hidden md:flex items-center space-x-10">
           <a href="#servicios" className="text-xs font-bold uppercase tracking-widest hover:text-brand-600 transition-colors">Servicios</a>
+          <a href="#investigacion" className="text-xs font-bold uppercase tracking-widest hover:text-brand-600 transition-colors">Investigación</a>
           <a href="#proyectos" className="text-xs font-bold uppercase tracking-widest hover:text-brand-600 transition-colors">Impacto</a>
           {/* <a href="#ia-demo" className="text-xs font-bold uppercase tracking-widest hover:text-brand-600 transition-colors">Demo</a> */}
           

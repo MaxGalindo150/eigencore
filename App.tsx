@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
 import AIConsultantDemo from './components/AIConsultantDemo';
+import Research from './components/Research';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -45,6 +46,7 @@ const App: React.FC = () => {
           <Hero />
           <TrustedBy />
           <Services />
+          <Research />
           {/* <AIConsultantDemo /> */}
           <Portfolio />
           <Contact />
